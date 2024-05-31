@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Nikos Tsepetzidis</title>
+</head>
+
+<body>
+  <div class="Template">
+    <aside class="Sidebar">
+      <div class="Image">
+        <img class="ProfileImage" src="./profile.jpeg" alt="Profile Image" />
+      </div>
+      <div class="FullName">
+
+        <h2><span class="Caret">></span> Nick Tsepetzidis</h2>
+      </div>
+      <div class="Menu">
+        <div class="SelectedMenuItem" id="aboutMeButton"><span>About Me</span></div>
+        <div class="MenuItem" id="personInfoButton"><span>Personal Information</span></div>
+        <div class="MenuItem" id="educationButton"><span>Education</span></div>
+        <div class="MenuItem" id="competenceSummaryButton"><span>Competence Summary</span></div>
+        <div class="MenuItem" id="moreActivitiesButton"><span>More Activities</span></div>
+        <div class="MenuItem" id="workExperienceButton"><span>Work Experience</span></div>
+        <div class="MenuItem" id="projectsButton"><span>Projects</span></div>
+      </div>
+    </aside>
+    <main>
+      <div class="HeaderImage">
+        <div class="CommandPrompt">
+          <div class="TypedOutHello">Hello World!</div>
+          <div class="TypedOutWelcome">Welcome to my profile!</div>
+        </div>
+        <div class="SocialMedia">
+          <div class="SocialOption"><a href="https://www.facebook.com/tsepe89"><img class="SocialImg"
+                src="https://cdn-icons-png.flaticon.com/256/124/124010.png" alt="fbImage" /><span>tsepe89</span></a>
+          </div>
+          <div class="SocialOption"><a href="https://www.linkedin.com/in/nick-tsepetzidis-b37bb6126/"><img
+                class="SocialImg" src="https://cdn-icons-png.flaticon.com/256/174/174857.png"
+                alt="inImage" /></a><span>Nick Tsepetzidis</span></div>
+          <div class="SocialOption"><a href="mailto:tsepetzidis@gmail.com"><img class="SocialImg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvTfS9FmYdWkoNf8woQ0I7xa86Ck2ce7J0yMb5KeaT1yYfqzDkqmIJ_W7Nijng5XW9-c&usqp=CAU"
+                alt="emailImage" /><span>tsepetzidis@gmail.com</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="Content">
+        <!-- Personal Information -->
+        <div id="personalInformationDiv" class="Hidden">
+          <div class="Signature"><span class="BlueColor">def </span><span
+              class="MethodColor">show_personal_info():</span></div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;first_name</span> = <span
+              class="StringColor">"Nick"</span>
+          </div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;last_name</span> = <span
+              class="StringColor">"Tsepetzidis"</span>
+          </div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;date_of_birth</span> = <span
+              class="StringColor">"1989-08-19"</span></div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;place_of_birth</span> = <span
+              class="StringColor">"Athens/Greece"</span></div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;email</span> = <span
+              class="StringColor">"tsepetzidis@gmail.com"</span></div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;linked_in</span> = <span
+              class="StringColor">"https://www.linkedin.com/in/nick-tsepetzidis-b37bb6126/"</span></div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;github</span> = <span
+              class="StringColor">https://github.com/tsepeto</span></div>
+          <div class="FieldItem"><span class="VariableColor">&emsp;facebook</span> = <span
+              class="StringColor">"https://www.facebook.com/tsepe89"</span></div>
+        </div>
+
+        <!-- Education -->
+        <div id="educationDiv" class="Hidden">
+          <div class="EducationItem">
+            <div class="MethodColor">
+              <h3>2021 - 2021</h3>
+            </div>
+            <div><span class="StringColor">PeopleCert </span><br><i>Java Full Stack Developer</i></div>
+          </div>
+          <div class="EducationItem">
+            <div class="MethodColor">
+              <h3>2017 - 2017</h3>
+            </div>
+            <div><span class="StringColor">IEK praxis </span><br><i>4 days Seminar for Molecular Cuisine</i></div>
+          </div>
+          <div class="EducationItem">
+            <div class="MethodColor">
+              <h3>2015 - 2015</h3>
+            </div>
+            <div><span class="StringColor">TechnoPlus </span><br><i>4 days Seminar for Android application development
+                with
+                Java</i></div>
+          </div>
+          <div class="EducationItem">
+            <div class="MethodColor">
+              <h3>2008 - Today</h3>
+            </div>
+            <div><span class="StringColor">Online Seminars / Tutorials </span>
+              (Youtube - Udemy - TeamTreeHouse ) for:
+              Python, Django, Java, Spring, Android, HTML, CSS,
+              JavaScript, React, MySQL, Internet Marketing, Photoshop</div>
+          </div>
+          <div class="EducationItem">
+            <div class="MethodColor">
+              <h3>2004 - 2006</h3>
+            </div>
+            <div><span class="StringColor">Vocational Public School of Hellenic Ministry of Tourism,
+              </span><br><i>Culinary
+                art</i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Competence Summary -->
+        <div id="competenceSummaryDiv" class="Hidden">
+          <div><span class="VariableColor">competence_summary</span> = <span class="NumberColor">[</span></div>
+          <div class="StringColor">&emsp;"Good knowledge, usage, and operation of MS Windows Systems, MS Office
+            suite, etc."</div>
+          <div class="StringColor">&emsp;"Good knowledge of Linux Systems"</div>
+          <div class="StringColor">&emsp;"Programming Experience: Java, Python, JavaScript"</div>
+          <div class="StringColor">&emsp;"Web Development: Django, FastAPI, Django-Rest-Framework, React, Spring,
+            HTML, CSS, JSS, JQuery, Bootstrap, Redis"</div>
+          <div class="StringColor">&emsp;"CMS: WordPress"</div>
+          <div class="StringColor">&emsp;"RDBMS: MySQL, SQLite, PostgreSQL"</div>
+          <div class="StringColor">&emsp;"Good operation of Adobe Photoshop"</div>
+          <div class="NumberColor">]</div>
+        </div>
+        <!-- More Activities -->
+        <div id="moreActivitiesDiv" class="NumberColor Hidden">
+          In 2017 I started my internet platform “www.pikefi.gr”. A marketplace for producers
+          and suppliers for Ho.Re.Ca. where I tried to promote in my free time until November
+          2020. All this time, I needed to learn WordPress, email and social marketing, and
+          creating landing pages.
+        </div>
+        <!-- About Me -->
+        <div id="aboutMeDiv" class="NumberColor">
+          <p>
+            While working as a chef, I discovered a passion for technology and
+            programming. I had been interested in programming as a hobby since I
+            was 17 years old, and this interest continued until the COVID-19
+            pandemic. During the second COVID lockdown, I found the opportunity
+            to change my career path by attending the PeopleCert boot camp for the
+            Java programming language.</p>
+          <p>
+            My career began one day after completing the bootcamp, and I have
+            been working as a web developer ever since. The startup company I
+            joined gave me the opportunity to learn about many new technologies in
+            a very short period of time, and I was able to develop my skills quickly.
+            Currently, I hold the position of Senior Full Stack Developer and work on Django Rest
+            API, FastAPI (Python) for the back end, and React (JavaScript) for the
+            front end.</p>
+        </div>
+
+        <!-- Work Experience -->
+        <div id="workExperienceDiv" class="Hidden">
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>2023 - NOW</h3>
+            </div>
+            <div><span class="StringColor">Senior Full Stack Developer </span><br><i>EasyTravel</i></div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>03/2022 - 2023</h3>
+            </div>
+            <div><span class="StringColor">Full Stack Developer </span><br><i>EasyTravel</i></div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>09/2021 - 03/2022</h3>
+            </div>
+            <div><span class="StringColor">Back End Developer </span><br><i>EasyTravel (former SISI TRAVEL TECHNOLOGY
+                LIMITED)</i></div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>12/2017 - 08/2021</h3>
+            </div>
+            <div><span class="StringColor">Chef De Partie </span><br><i>Divani Caravel Hotel</i></div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>05/2016 - 10/2017</h3>
+            </div>
+            <div><span class="StringColor">Line Cook (part-time)
+              </span><br><i>“Labros” Restaurant</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>02/2016 - 10/2017</h3>
+            </div>
+            <div><span class="StringColor">Chef De Partie
+              </span><br><i>“Breeze” Cafe-Restaurant</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>05/2015 - 11/2015</h3>
+            </div>
+            <div><span class="StringColor">Chef De Partie
+              </span><br><i>“Belle Amie” Restaurant</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>11/2014 - 04/2015</h3>
+            </div>
+            <div><span class="StringColor">Sous Chef
+              </span><br><i>“Lola's Bar” Restaurant</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>03/2014 - 11/2014</h3>
+            </div>
+            <div><span class="StringColor">Chef De Partie
+              </span><br><i>“Belle Amie” Restaurant</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>05/2011 - 12/2013</h3>
+            </div>
+            <div><span class="StringColor">Chef De Partie
+              </span><br><i>Hotel Fenix</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>09/2009 - 10/2010</h3>
+            </div>
+            <div><span class="StringColor">Line Cook
+              </span><br><i>Hotel Fenix</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>02/2009 - 08/2009</h3>
+            </div>
+            <div><span class="StringColor">Cook
+              </span><br><i>Greek Army</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>06/2006 - 11/2008</h3>
+            </div>
+            <div><span class="StringColor">Cook Assistant
+              </span><br><i>Hotel Fenix</i>
+            </div>
+          </div>
+          <div class="ExperienceItem">
+            <div class="MethodColor">
+              <h3>06/2005 - 10/2015</h3>
+            </div>
+            <div><span class="StringColor">Cook Assistant
+              </span><br><i>Hotel Alexandros</i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projectsDiv" class="Hidden">
+        </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+
+</html>
